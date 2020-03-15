@@ -1,0 +1,36 @@
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-hwqvv[0m
+{"level":"warn","ts":1584301113.5843706,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1584301113.5859437,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-rprzn[0m
+{"level":"warn","ts":1584301114.5658865,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1584301114.5671647,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jxbitcoder-environment-cluster1-gl6cp-cm2qt[0m
+{"level":"warn","ts":1584301119.742613,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1584301120.7749107,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/**bitcoder/environment-cluster1-staging.git @ v0.0.6 in path /workspace/source"}
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:374f882bdacde4aee34321a6c3cd7ba13dd927a7
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Generated Git credentials file /builder/home/git/credentials
+
+Showing logs for build [32mjxbitcoder-environment-cluster1-gl6cp-6[0m stage [32mfrom-build-pack[0m and container [32mstep-build-helm-apply[0m
+Modified file /workspace/source/env/Chart.yaml to set the chart to version 6
+Ignoring templates/.gitignore
+Ignoring templates/wildcardcert-secret.yaml
+WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
+Adding missing Helm repo: storage.googleapis.com https://storage.googleapis.com/chartmuseum.jenkins-x.io
+Successfully added Helm repository storage.googleapis.com.
+Adding missing Helm repo: jenkins-x-chartmuseum http://jenkins-x-chartmuseum:8080
+Successfully added Helm repository jenkins-x-chartmuseum.
+WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
+Adding missing Helm repo: chartmuseum.jenkins-x.io http://chartmuseum.jenkins-x.io
+Successfully added Helm repository chartmuseum.jenkins-x.io.
+
+release.jenkins.io "**-tutorial-0.0.5" deleted
