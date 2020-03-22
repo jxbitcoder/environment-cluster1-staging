@@ -1,26 +1,26 @@
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-hspwq[0m
-{"level":"warn","ts":1584272491.8309886,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1584272491.8319442,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-k6krl[0m
+{"level":"warn","ts":1584905307.4734256,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1584905307.474307,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-5lj4j[0m
-{"level":"warn","ts":1584272492.3023813,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1584272492.303968,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-zdszr[0m
+{"level":"warn","ts":1584905308.8574917,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1584905308.8622465,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jxbitcoder-environment-cluster1-qszqq-v5wp6[0m
-{"level":"warn","ts":1584272498.387552,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1584272499.452963,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/**bitcoder/environment-cluster1-staging.git @ v0.0.1 in path /workspace/source"}
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jxbitcoder-environment-cluster1-w7c97-vcp2v[0m
+{"level":"warn","ts":1584905314.0808897,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1584905315.108775,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/**bitcoder/environment-cluster1-staging.git @ v0.0.7 in path /workspace/source"}
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
-Using SHAs from PULL_REFS=master:a34f600c52fc3ba5feec87986ecd530d17840efa
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:7cdb3f101db7a2793245504cf6d62b4518e61843
 WARNING: no SHAs to merge, falling back to initial cloned commit
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
 Generated Git credentials file /builder/home/git/credentials
 
-Showing logs for build [32mjxbitcoder-environment-cluster1-qszqq-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-helm-apply[0m
+Showing logs for build [32mjxbitcoder-environment-cluster1-w7c97-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-helm-apply[0m
 Modified file /workspace/source/env/Chart.yaml to set the chart to version 1
 Namespace **-staging created 
 Ignoring templates/.gitignore
